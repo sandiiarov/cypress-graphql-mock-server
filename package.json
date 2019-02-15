@@ -8,8 +8,8 @@
   "sideEffects": true,
   "@pika/pack": {
     "pipeline": [
-      ["@pika/plugin-ts-standard-pkg", { "sideEffects": true }],
-      ["@pika/plugin-build-node", { "sideEffects": true }]
+      ["@pika/plugin-ts-standard-pkg"],
+      ["@pika/plugin-build-node"]
     ]
   },
   "devDependencies": {
