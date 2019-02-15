@@ -1,14 +1,15 @@
 {
   "name": "cypress-graphql-mock-server",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Cypress commands of GraphQL Mock Server",
   "scripts": {
     "tsc": "tsc --noEmit"
   },
+  "sideEffects": true,
   "@pika/pack": {
     "pipeline": [
-      ["@pika/plugin-ts-standard-pkg"],
-      ["@pika/plugin-build-node"]
+      ["@pika/plugin-ts-standard-pkg", { "sideEffects": true }],
+      ["@pika/plugin-build-node", { "sideEffects": true }]
     ]
   },
   "devDependencies": {
