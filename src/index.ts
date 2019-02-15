@@ -1,4 +1,4 @@
-namespace Cypress {
+declare namespace Cypress {
   interface Chainable<Subject = any> {
     /**
      * graphql-mock-server helpers for Cypress
